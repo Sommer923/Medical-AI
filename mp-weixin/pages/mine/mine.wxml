@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="header">
+    <image class="avatar" src="../../static/logo.png" mode="aspectFill"></image>
+    <view class="info">
+      <text class="name">张三</text>
+      <button class="edit-button" bindtap="goToEdit">修改信息</button>
+    </view>
+  </view>
+  
+  <view class="buttons">
+    <button class="nav-button" bindtap="goToAppointments">预约记录</button>
+    <button class="nav-button" bindtap="goToMedications">用药</button>
+    <button class="nav-button" bindtap="goToPatients">就诊人</button>
+  </view>
+</view>

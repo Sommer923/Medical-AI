@@ -1,0 +1,14 @@
+<view class="chat-container">
+  <scroll-view class="message-container" scroll-y :scroll-top="scrollTop">
+    <view class="message" wx:for="{{messages}}" wx:key="index">
+      <view class="avatar {{item.role}}-avatar"></view>
+      <view class="message-content">
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="input-container">
+    <textarea placeholder="输入你的问题..." auto-height value="{{userInput}}" bindinput="onInputChange"></textarea>
+    <button bindtap="sendRequest">发送</button>
+  </view>
+</view>

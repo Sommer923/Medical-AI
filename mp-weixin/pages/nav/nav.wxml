@@ -1,0 +1,11 @@
+<view class="container">
+  <text class="title">医院导航</text>
+  
+  <view class="department-list">
+    <button class="department-button" bindtap="goToDepartment">内科</button>
+    <button class="department-button" bindtap="goToDepartment">外科</button>
+    <button class="department-button" bindtap="goToDepartment">妇产科</button>
+    <button class="department-button" bindtap="goToDepartment">儿科</button>
+    <button class="department-button" bindtap="goToDepartment">急诊科</button>
+  </view>
+</view>

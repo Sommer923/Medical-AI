@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/visit/visit",
+    "pages/mine/mine",
+    "pages/aiguide/aiguide",
+    "pages/people/people",
+    "pages/appointments/appointments",
+    "pages/medication/medication",
+    "pages/patient/patient",
+    "pages/nav/nav",
+    "pages/department/department"
+  ],
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#007aff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      },
+      {
+        "pagePath": "pages/visit/visit",
+        "text": "就诊",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/images/logo.png",
+        "selectedIconPath": "static/images/logo.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

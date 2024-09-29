@@ -1,0 +1,25 @@
+.container {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.department-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.department-button {
+  padding: 15px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
